@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "auto_comment": true,
+  "severity_threshold": "low",
+  "ignore_patterns": [
+    "*.md",
+    "*.txt",
+    "package-lock.json",
+    "yarn.lock",
+    "*.min.js",
+    "*.min.css"
+  ],
+  "features": {
+    "bug_detection": true,
+    "security_scan": true,
+    "doc_linking": true,
+    "summarization": true
+  },
+  "max_comments": 50,
+  "custom_rules": []
+}
